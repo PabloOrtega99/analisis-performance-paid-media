@@ -1,0 +1,23 @@
+# Datos. No se suben: el pipeline los regenera con `python -m src.pipeline`,
+# y así el repositorio no puede contener nada que no deba contener.
+data/
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# Sistema operativo y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
